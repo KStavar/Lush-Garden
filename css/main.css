@@ -66,9 +66,9 @@ a {
 .header-div-text {
     display: flex;
     justify-content: center;
-
     margin-left: 326px;
     margin-right: 327px;
+    margin-top: 105px;
 }
 
 .header-text {
@@ -80,6 +80,11 @@ a {
 
 .header-buttons{
     border: 5px solid blue;
+    display: flex;
+    justify-content:center;
+  
+   
+
 }
 .header-b-video{
 border: 2px solid red;
