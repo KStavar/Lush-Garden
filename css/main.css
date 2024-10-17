@@ -49,7 +49,7 @@ nav {
     margin-left: 67px;
 }
 
-a {
+a{
     text-decoration: none;
     color: white;
 }
@@ -79,17 +79,34 @@ a {
 }
 
 .div-header-buttons {
-    border: 5px solid blue;
     display: flex;
     justify-content: center;
 
 }
 
-.header-button {
-    border: 2px solid red;
-    margin: 38px;
+.header-button-book {
+    margin-top: 38px;
+    margin-right: 6px;
+    border-radius:3px;
     padding: 12px 50px 12px 50px;
-}
-.colored-button{
     background: rgb(40, 90, 67);
+    border:none;
+}
+
+.header-button-vid{
+    display: flex;
+    border: white;
+    width: 187px;
+    height: 40px;
+    margin-top: 38px;
+    margin-left: 6px;
+    border-radius:3px;
+    border: 2px solid white;
+    background: transparent;
+    
+}
+
+.header-button-vid-icon{
+    height: 24px;
+    width: 24px;
 }
