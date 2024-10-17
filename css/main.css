@@ -78,17 +78,18 @@ a {
 
 }
 
-.header-buttons{
+.div-header-buttons {
     border: 5px solid blue;
     display: flex;
-    justify-content:center;
-  
-   
+    justify-content: center;
 
 }
-.header-b-video{
-border: 2px solid red;
+
+.header-button {
+    border: 2px solid red;
+    margin: 38px;
+    padding: 12px 50px 12px 50px;
 }
-.header-b-book{
-border: 2px solid green;
+.colored-button{
+    background: rgb(40, 90, 67);
 }
