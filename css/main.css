@@ -216,9 +216,32 @@ a {
 .what-we-offer {
     display: flex;
     justify-content: center;
-
+    margin-bottom:35px;
 }
 
 .h2-what-we-offer {
     color: rgb(40, 90, 67);
+    border: 4px solid red;
+}
+
+.div-cactus-plant{
+display: grid;
+grid-template-columns: auto auto auto auto;
+justify-content: center;
+gap: 25px;
+}
+
+.cactus-plant{
+    border: 4px solid blue;
+    border-radius:10px;
+    width: 280px;
+    height: 314px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.02);
+   
+  
+}
+.img-cactus-plant{
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
 }
