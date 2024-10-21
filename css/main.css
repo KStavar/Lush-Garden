@@ -125,10 +125,9 @@ a {
 
 .div-about-plants {
     margin-top: 120px;
-    border: 5px solid green;
     display: flex;
     justify-content: center;
-   
+
 }
 
 .h2-about-plants {
@@ -151,31 +150,68 @@ a {
 .types-of-plants {
     display: flex;
     justify-content: center;
-    border: 5px solid red;
     gap: 40px;
     width: 100%;
     height: 380px;
     margin-top: 90px;
-    
 
+
+}
+.types-of-plant-img{
+    margin-bottom: 10px;
+}
+
+.h2-plants {
+    color: rgb(40, 90, 67);
+    font-size: 20px;
+}
+
+.p-plants {
+    color: rgb(18, 18, 18);
+    font-size: 16px;
+    margin-top: 20px;
+    width: 259px;
+    height: 72px;
 }
 
 .indoor-plants {
-    border: 2px solid blue;
     width: 350px;
-  
+    padding: 0px  50px 50px 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.02);
 
 }
 
-.outdoor-plants{
-    border: 2px solid yellow;
+
+.outdoor-plants {
+    border: 2px solid rgb(51 122 91);
+    border-radius: 10px;
     width: 350px;
-    background-color:rgb(40, 90, 67) ;
-  
+    background-color: rgb(51 122 91);
+    padding: 0px 50px 50px 50px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.02);
+
+
+    
 }
 
-.plants-pots{
-    border: 2px solid pink;
-    width: 350px;
-   
+
+.h2-outdoor-plants {
+    color: white;
+    font-size: 20px;
 }
+
+.p-outdoor-plants {
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.plants-pots {
+    width: 350px; 
+    padding: 0px 50px 50px 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.02);
+
+}
+
