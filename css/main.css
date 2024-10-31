@@ -220,10 +220,10 @@ a {
 
 .h2-what-we-offer {
     color: rgb(40, 90, 67);
-    border: 4px solid red;
+
 }
 
-.div-cactus-plant {
+.div-all-cactus-plants {
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: center;
@@ -231,16 +231,12 @@ a {
 }
 
 .cactus-plant {
-    border: 4px solid blue;
     border-radius: 10px;
     width: 280px;
     height: 314px;
     box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.02);
     color: rgb(51, 122, 91);
     font-size: 16px;
-    display: flex;
-
-
 }
 
 .img-cactus-plant {
@@ -250,16 +246,50 @@ a {
 .a-button-cactus-plant {
     color: rgba(51, 122, 91);
     cursor: pointer;
-font-size: 12px;
+    font-size: 12px;
     border: 1px solid rgba(51, 122, 91, 0.6);
     border-radius: 3px;
     transition-duration: 0.3s;
-    padding:6px 24px 6px 24px;
+    padding: 8px 24px 8px 24px;
+    font-weight: 900;
+    margin-left: 35px;
+    margin-right: 23px;
+
+    
+   
+
 }
 
 .a-button-cactus-plant:hover {
     color: white;
     background-color: rgba(51, 122, 91);
+   
+    
 }
 
 
+.p-cactus-plant{
+    font-weight: 900;
+    text-align: left;
+    margin-left: 24px;
+    margin-top: 10px;
+   
+ 
+}
+.p-price{
+font-size: 12px;
+font-weight: 700;
+margin-top: 5px;
+margin-left: 24px;
+margin-bottom: 10px;
+width: 14px;
+height: 17px;
+}
+
+.div-cactus-and-price{
+    display: flex;
+    grid-template-columns: auto auto;
+    justify-content: baseline;
+    align-items:center;
+
+}
