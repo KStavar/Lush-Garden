@@ -17,13 +17,11 @@
     align-items: center;
     height: 105px;
     display: flex;
-    background-color:rgb(133, 154, 148);
+    background-image: linear-gradient(#8CA39C,#A0BEB2);
 }
 
 nav {
     display: flex;
-
-
 }
 
 .nav-list {
@@ -56,4 +54,64 @@ nav {
 
 a {
     text-decoration: none;
+}
+
+.div-h2-about{
+    height: 105px;
+    background-image: linear-gradient(#A0BEB2,#B9DDCD);
+}
+
+.h2-about{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color:white;
+}
+
+.sec-about-products {
+    display: flex;
+    background: rgb(248, 248, 248);
+}
+
+.img-about-products {
+    width: 72%;
+    height: 758px;
+}
+
+.about-products {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.h3-products {
+    color: rgb(40, 90, 67);
+    margin-left:68px;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+
+.div-products {
+    width: 360px;
+    height: 379px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.p-products {
+    color: rgb(18, 18, 18);
+    margin-left: 68px;
+    width: 243px;
+    font-size: 16px;
+
+}
+
+.products-svg {
+    height: 126px;
+    width: 126px;
+    margin-left: 54px;
+    margin-bottom: 10px;
 }
