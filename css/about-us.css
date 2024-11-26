@@ -17,7 +17,7 @@
     align-items: center;
     height: 105px;
     display: flex;
-    background-image: linear-gradient(#869991,#879991);
+    background-image: linear-gradient(#869991,#8da299);
 }
 
 nav {
@@ -58,7 +58,7 @@ a {
 
 .div-h2-about{
     height: 105px;
-    background-image: linear-gradient(#879991,#93b0a5	);
+    background-image: linear-gradient(#8da299,#93b0a5	);
 }
 
 .h2-about{
@@ -117,7 +117,6 @@ a {
 }
 
 .div-w-d-t-s-a-u{
-    border:2px solid red;
     display: flex;
     justify-content: center;
     margin-top: 5%;
@@ -128,7 +127,6 @@ a {
 }
 .div-review{
     margin-top:35px ;
-    border:2px solid green;
     display: flex;
     justify-content: center;
     gap: 70px;
@@ -136,21 +134,24 @@ a {
 }
 
 .review-h3-img{
-    border:2px solid pink;
     display: flex;
     justify-content:center;
     align-items: center;
+    gap: 20px;
 
 }
 
 .review{
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid violet;
     align-items:center;
     width: 360px;
     height: 329px;
     padding-left: 3%;
+    background-color:#F8F8F8;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.02);
 
 }
 
@@ -160,6 +161,7 @@ color: #285A43;
 
 .p-review{
 width: 243px;
+margin-bottom: 20%;
 }
 
 
