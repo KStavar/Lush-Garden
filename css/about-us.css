@@ -116,36 +116,50 @@ a {
     margin-bottom: 10px;
 }
 
-.sec-w-d-t-s-a-u{
-    border:2px solid blue;
-
-}
 .div-w-d-t-s-a-u{
     border:2px solid red;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
 }
 
 .h2-w-d-t-s-a-u{
     color:  rgb(40, 90, 67);
 }
 .div-review{
+    margin-top:35px ;
     border:2px solid green;
     display: flex;
     justify-content: center;
+    gap: 70px;
     
+}
+
+.review-h3-img{
+    border:2px solid pink;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
 }
 
 .review{
     display: flex;
+    flex-wrap: wrap;
     border: 2px solid violet;
-    justify-content: center;
+    align-items:center;
+    width: 360px;
+    height: 329px;
+    padding-left: 3%;
+
 }
 
 .h3-review{
-justify-content: center;
+color: #285A43;
 }
 
 .p-review{
-
+width: 243px;
 }
 
 
