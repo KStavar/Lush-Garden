@@ -17,7 +17,7 @@
     align-items: center;
     height: 105px;
     display: flex;
-    background-image: linear-gradient(#8CA39C,#A0BEB2);
+    background-image: linear-gradient(#869991,#879991);
 }
 
 nav {
@@ -58,7 +58,7 @@ a {
 
 .div-h2-about{
     height: 105px;
-    background-image: linear-gradient(#A0BEB2,#B9DDCD);
+    background-image: linear-gradient(#879991,#93b0a5	);
 }
 
 .h2-about{
@@ -115,6 +115,39 @@ a {
     margin-left: 54px;
     margin-bottom: 10px;
 }
+
+.sec-w-d-t-s-a-u{
+    border:2px solid blue;
+
+}
+.div-w-d-t-s-a-u{
+    border:2px solid red;
+}
+
+.h2-w-d-t-s-a-u{
+    color:  rgb(40, 90, 67);
+}
+.div-review{
+    border:2px solid green;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.review{
+    display: flex;
+    border: 2px solid violet;
+    justify-content: center;
+}
+
+.h3-review{
+justify-content: center;
+}
+
+.p-review{
+
+}
+
 
 
 
