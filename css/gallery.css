@@ -147,10 +147,39 @@ a {
     width: 100%;
     justify-content: center;
     align-items: center;
+  
  
 }
 
+.posts{
+    display: flex;
 
+}
+
+.div-cards{
+    display: flex;
+    border:2px solid red;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-cards{
+    width: 360px;
+    height: 332px;
+}
+
+.read-more{
+    border:2px solid yellow;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-read-more{
+    color:#285A43;
+    font-weight: 600;
+}
 
 
 
