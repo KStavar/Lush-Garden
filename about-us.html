@@ -27,13 +27,41 @@
             <nav>
                 <ul class="nav-list">
                     <li class="nav-list-item"><a class="a-nav-list-item" href="main_page.html">Home</a></li>
-                    <li class="nav-list-item"><a class="a-nav-list-item" href="about-us.html">About Us</a></li>
-                    <li class="nav-list-item"><a class="a-nav-list-item" href="gallery.html">Gallery</a></li>
-                    <li class="nav-list-item"><a class="a-nav-list-item" href="">Contact</a></li>
+                    <li class="nav-list-item"><a class="a-nav-list-item" href="about-us.html" target="_self">About
+                            Us</a></li>
+                    <li class="nav-list-item"><a class="a-nav-list-item" href="gallery.html" target="_self">Gallery</a>
+                    </li>
+                    <li class="nav-list-item"><a class="a-nav-list-item" href="" target="_self">Contact</a></li>
                 </ul>
-                <button class="call-button"><a class="a-nav-list-item" href="">Call Us</a></button>
+
+                <label for="popup-toggle" class="separated-a-nav-list-item">Call Us</label>
+
+
+                <input type="checkbox" id="popup-toggle" class="popup-checkbox">
+
+                <div class="popup">
+                    <div class="popup-content">
+                        <label for="popup-toggle" for="call" class="close-popup">&times;</label>
+                        <h2>Enter Your Email Address For Our <br>
+                            Mailing Promo or Other Interesting <br>
+                            Things</h2>    
+
+                        <div>
+                        <input type="email" name="" placeholder="Enter your email" id="input-email">
+                    
+                            <button class="a-header-button-book">
+                                <a class="a-nav-list-item" href="" target="_blank">
+                                    <p>Submit</p>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
             </nav>
         </section>
+       
+        
         <div class="div-h2-about">
             <h2 class="h2-about">About Us</h2>
         </div>

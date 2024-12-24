@@ -39,7 +39,109 @@ nav {
 .a-nav-list-item {
     text-decoration: none;
     color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    
 }
+
+.separated-a-nav-list-item{
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    color: white;
+    height: 41px;
+    width: 150px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-left: 67px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 9px;
+}
+
+.popup-checkbox {
+    display: none;
+    width:150px;
+    height: 41px;
+
+}
+
+.a-header-button-book {
+    margin-right: 6px;
+    border-radius: 3px;
+    padding: 12px 50px 12px 50px;
+    background: rgb(40, 90, 67);
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    color:white;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-checkbox:checked + .popup {
+    display: flex;
+}
+
+.popup-content {
+    background-image: url(/img/arto-suraj-X7jtnqyn54M-unsplash\ 1.png);
+    width: 100%;
+    height:400px;
+    position: relative;
+    background-repeat:round;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+#input-email{
+    width:475px;
+    height: 48px;
+    background-color:transparent;
+    backdrop-filter: blur(5px);
+    border: 1px solid white;
+    border-radius:5px;
+    padding-left: 25px;
+    color:white;
+    margin-right: 25px;
+}
+
+
+.popup-content h2 {
+    margin: 0 0 10px;
+    color:white;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+    color: #aaa;
+    cursor: pointer;
+
+}
+
+.close-popup:hover {
+    color: rgb(247, 31, 31);
+}
+
 
 .call-button {
     height: 41px;
@@ -50,10 +152,6 @@ nav {
     margin-left: 67px;
     cursor: pointer;
     font-weight: 700;
-}
-
-a {
-    text-decoration: none;
 }
 
 .div-h2-about{
