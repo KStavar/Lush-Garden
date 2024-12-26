@@ -66,10 +66,9 @@ nav {
     display: none;
     width:150px;
     height: 41px;
-
 }
 
-.a-header-button-book {
+.a-header-button-submit {
     margin-right: 6px;
     border-radius: 3px;
     padding: 12px 50px 12px 50px;
@@ -87,7 +86,7 @@ nav {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.204);
     justify-content: center;
     align-items: center;
     z-index: 1000;
@@ -154,6 +153,57 @@ nav {
     font-weight: 700;
 }
 
+.popup-contact-checkbox{
+    width: 150px;
+    height: 41px;
+    display: none;
+}
+
+.contact-popup{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.204);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.nav-contact{
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    color: white;
+    border:1px solid red;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contact-popup-content {
+    background-color:whitesmoke;
+    width: 50%;
+    height:30%;
+    position: relative;
+    background-repeat:round;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.contact-popup-content h2{
+    color:#869991;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.popup-contact-checkbox:checked + .contact-popup {
+    display: flex;
+}
 
 a {
     text-decoration: none; 
