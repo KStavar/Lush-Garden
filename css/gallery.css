@@ -42,10 +42,10 @@ nav {
     cursor: pointer;
     font-size: 18px;
     font-weight: 500;
-    
+
 }
 
-.separated-a-nav-list-item{
+.separated-a-nav-list-item {
     display: inline-block;
     text-align: center;
     list-style: none;
@@ -64,7 +64,7 @@ nav {
 
 .popup-checkbox {
     display: none;
-    width:150px;
+    width: 150px;
     height: 41px;
 }
 
@@ -76,7 +76,7 @@ nav {
     border: none;
     cursor: pointer;
     font-weight: 700;
-    color:white;
+    color: white;
 }
 
 .popup {
@@ -92,37 +92,37 @@ nav {
     z-index: 1000;
 }
 
-.popup-checkbox:checked + .popup {
+.popup-checkbox:checked+.popup {
     display: flex;
 }
 
 .popup-content {
     background-image: url(/img/arto-suraj-X7jtnqyn54M-unsplash\ 1.png);
     width: 100%;
-    height:400px;
+    height: 400px;
     position: relative;
-    background-repeat:round;
+    background-repeat: round;
     display: flex;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
 }
 
-#input-email{
-    width:475px;
+#input-email {
+    width: 475px;
     height: 48px;
-    background-color:transparent;
+    background-color: transparent;
     backdrop-filter: blur(5px);
     border: 1px solid white;
-    border-radius:5px;
+    border-radius: 5px;
     padding-left: 25px;
-    color:white;
+    color: white;
     margin-right: 25px;
 }
 
 
 .popup-content h2 {
     margin: 0 0 10px;
-    color:white;
+    color: white;
     font-size: 32px;
     font-weight: 600;
 }
@@ -153,13 +153,22 @@ nav {
     font-weight: 700;
 }
 
-.popup-contact-checkbox{
+.popup-contact-checkbox {
     width: 150px;
     height: 41px;
     display: none;
 }
 
-.contact-popup{
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.204);
+}
+
+.contact-popup {
     display: none;
     position: fixed;
     top: 0;
@@ -172,43 +181,49 @@ nav {
     z-index: 1000;
 }
 
-.nav-contact{
+.nav-contact {
     display: inline-block;
     text-align: center;
     list-style: none;
     color: white;
-    border:1px solid red;
     font-size: 18px;
     cursor: pointer;
 }
 
 .contact-popup-content {
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     width: 50%;
-    height:30%;
+    height: 30%;
     position: relative;
-    background-repeat:round;
+    background-repeat: round;
+    align-items: center;
     display: flex;
-    justify-content: space-around;
-
-
+    justify-content: center;
+    border-radius: 10px;
 }
 
-.contact-popup-content h2{
-    color:#869991;
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.contact-popup-content h2 {
+    color: #869991;
     font-size: 35px;
     font-weight: 700;
 
 }
 
-.popup-contact-checkbox:checked + .contact-popup {
+.popup-contact-checkbox:checked~.contact-popup {
     display: flex;
 }
 
 a {
-    text-decoration: none; 
-    color: inherit; 
-    background: none; 
+    text-decoration: none;
+    color: inherit;
+    background: none;
     outline: none;
 }
 
@@ -284,14 +299,14 @@ a {
     width: auto;
     height: auto;
     cursor: pointer;
-    border-radius:7px;
+    border-radius: 7px;
 }
 
 .image {
     cursor: pointer;
     width: 100%;
     height: 100%;
-    border-radius:7px
+    border-radius: 7px
 }
 
 .blog {
@@ -321,13 +336,13 @@ a {
     margin: 5px;
 }
 
-.div-card-header{
+.div-card-header {
     display: flex;
     justify-content: baseline;
 }
 
-.h3-card-header{
-    color:#285A43;
+.h3-card-header {
+    color: #285A43;
     font-size: 20px;
 }
 
@@ -343,10 +358,10 @@ a {
     cursor: pointer;
 }
 
-.p-info{
+.p-info {
     justify-content: center;
-    align-items:center;
-    width:360px;
+    align-items: center;
+    width: 360px;
     font-size: 16px;
 }
 

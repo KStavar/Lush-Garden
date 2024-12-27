@@ -17,7 +17,7 @@
     align-items: center;
     height: 105px;
     display: flex;
-    background-image: linear-gradient(#869991,#8da299);
+    background-image: linear-gradient(#869991, #8da299);
 }
 
 nav {
@@ -42,10 +42,10 @@ nav {
     cursor: pointer;
     font-size: 18px;
     font-weight: 500;
-    
+
 }
 
-.separated-a-nav-list-item{
+.separated-a-nav-list-item {
     display: inline-block;
     text-align: center;
     list-style: none;
@@ -64,12 +64,11 @@ nav {
 
 .popup-checkbox {
     display: none;
-    width:150px;
+    width: 150px;
     height: 41px;
-
 }
 
-.a-header-button-book {
+.a-header-button-submit {
     margin-right: 6px;
     border-radius: 3px;
     padding: 12px 50px 12px 50px;
@@ -77,7 +76,7 @@ nav {
     border: none;
     cursor: pointer;
     font-weight: 700;
-    color:white;
+    color: white;
 }
 
 .popup {
@@ -87,43 +86,43 @@ nav {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.204);
     justify-content: center;
     align-items: center;
     z-index: 1000;
 }
 
-.popup-checkbox:checked + .popup {
+.popup-checkbox:checked+.popup {
     display: flex;
 }
 
 .popup-content {
     background-image: url(/img/arto-suraj-X7jtnqyn54M-unsplash\ 1.png);
     width: 100%;
-    height:400px;
+    height: 400px;
     position: relative;
-    background-repeat:round;
+    background-repeat: round;
     display: flex;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
 }
 
-#input-email{
-    width:475px;
+#input-email {
+    width: 475px;
     height: 48px;
-    background-color:transparent;
+    background-color: transparent;
     backdrop-filter: blur(5px);
     border: 1px solid white;
-    border-radius:5px;
+    border-radius: 5px;
     padding-left: 25px;
-    color:white;
+    color: white;
     margin-right: 25px;
 }
 
 
 .popup-content h2 {
     margin: 0 0 10px;
-    color:white;
+    color: white;
     font-size: 32px;
     font-weight: 600;
 }
@@ -154,16 +153,102 @@ nav {
     font-weight: 700;
 }
 
-.div-h2-about{
-    height: 105px;
-    background-image: linear-gradient(#8da299,#93b0a5	);
+.popup-contact-checkbox {
+    width: 150px;
+    height: 41px;
+    display: none;
 }
 
-.h2-about{
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.204);
+}
+
+.contact-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.204);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.nav-contact {
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contact-popup-content {
+    background-color: whitesmoke;
+    width: 50%;
+    height: 30%;
+    position: relative;
+    background-repeat: round;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.contact-popup-content h2 {
+    color: #869991;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.popup-contact-checkbox:checked~.contact-popup {
+    display: flex;
+}
+
+
+.call-button {
+    height: 41px;
+    width: 150px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-left: 67px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    background: none;
+    outline: none;
+}
+
+.div-h2-about {
+    height: 105px;
+    background-image: linear-gradient(#8da299, #93b0a5);
+}
+
+.h2-about {
     display: flex;
     justify-content: center;
     font-size: 50px;
-    color:white;
+    color: white;
 }
 
 .sec-about-products {
@@ -183,7 +268,7 @@ nav {
 
 .h3-products {
     color: rgb(40, 90, 67);
-    margin-left:68px;
+    margin-left: 68px;
     margin-bottom: 12px;
     font-size: 20px;
 }
@@ -214,52 +299,53 @@ nav {
     margin-bottom: 10px;
 }
 
-.div-w-d-t-s-a-u{
+.div-w-d-t-s-a-u {
     display: flex;
     justify-content: center;
     margin-top: 5%;
 }
 
-.h2-w-d-t-s-a-u{
-    color:  rgb(40, 90, 67);
+.h2-w-d-t-s-a-u {
+    color: rgb(40, 90, 67);
 }
-.div-review{
-    margin-top:35px ;
+
+.div-review {
+    margin-top: 35px;
     display: flex;
     justify-content: center;
     gap: 70px;
-    
+
 }
 
-.review-h3-img{
+.review-h3-img {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     gap: 20px;
 
 }
 
-.review{
+.review {
     display: flex;
     flex-wrap: wrap;
-    align-items:center;
+    align-items: center;
     width: 360px;
     height: 329px;
     padding-left: 3%;
-    background-color:#F8F8F8;
+    background-color: #F8F8F8;
     border-radius: 10px;
     font-size: 16px;
     box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.09);
 
 }
 
-.h3-review{
-color: #285A43;
+.h3-review {
+    color: #285A43;
 }
 
-.p-review{
-width: 243px;
-margin-bottom: 20%;
+.p-review {
+    width: 243px;
+    margin-bottom: 20%;
 }
 
 
@@ -341,7 +427,7 @@ margin-bottom: 20%;
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 700;
-    position:absolute;
+    position: absolute;
     bottom: 0;
- 
+
 }
