@@ -243,6 +243,10 @@ a {
     height: 105px;
     background-image: linear-gradient(#8da299, #93b0a5);
 }
+.div-h2-empty {
+    height: 105px;
+    background-image: linear-gradient(#93b0a5, #f8f8f8);
+}
 
 .h2-about {
     display: flex;
