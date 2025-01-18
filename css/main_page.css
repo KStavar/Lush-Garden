@@ -214,6 +214,10 @@ nav {
     align-items: center;
 }
 
+.info {
+    font-size: 15px;
+}
+
 .contact-popup-content h2 {
     color: #869991;
     font-size: 35px;
@@ -275,6 +279,15 @@ a {
     border: none;
     cursor: pointer;
     font-weight: 700;
+}
+
+.p-header-button-book {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+
 }
 
 .header-button-vid {
@@ -365,7 +378,7 @@ a {
     width: 350px;
     padding: 0px 50px 50px 50px;
     border-radius: 10px;
-    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.02);
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.097);
 }
 
 .outdoor-plants {
@@ -374,7 +387,7 @@ a {
     width: 350px;
     background-color: rgb(51 122 91);
     padding: 0px 50px 50px 50px;
-    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.02);
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.097);
 }
 
 .h2-outdoor-plants {
@@ -392,7 +405,7 @@ a {
     width: 350px;
     padding: 0px 50px 50px 50px;
     border-radius: 10px;
-    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.02);
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.097);
 }
 
 .div-what-we-offer {
@@ -422,9 +435,6 @@ a {
     font-size: 16px;
 }
 
-
-
-
 .img-cactus-plant {
     width: 100%;
 }
@@ -441,16 +451,11 @@ a {
     margin-left: 35px;
     margin-right: 23px;
 
-
-
-
 }
 
 .a-button-cactus-plant:hover {
     color: white;
     background-color: rgba(51, 122, 91);
-
-
 }
 
 
@@ -459,8 +464,6 @@ a {
     text-align: left;
     margin-left: 24px;
     margin-top: 10px;
-
-
 }
 
 .p-price {
@@ -478,7 +481,6 @@ a {
     grid-template-columns: auto auto;
     justify-content: baseline;
     align-items: center;
-
 }
 
 .footer {
@@ -561,3 +563,368 @@ a {
     bottom: 0;
 
 }
+
+@media (max-width: 1280px) {
+
+    .a-nav-list-item {
+        font-size: 16px;
+    }
+
+    .separated-a-nav-list-item {
+        height: 35px;
+        width: 140px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .nav-contact {
+        font-size: 16px;
+    }
+
+    .contact-popup-content h2 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .info {
+        font-size: 14px;
+    }
+
+    .h1 {
+        font-size: 35px;
+        margin-top: 100px;
+    }
+
+    .header-text {
+        font-size: 16px;
+    }
+
+    .a-header-button-book {
+        padding: 5px 44px 5px 44px;
+        font-weight: 600;
+
+    }
+
+    .p-header-button-book {
+        font-size: 14px;
+
+    }
+
+    .a-button-video {
+        font-size: 14px;
+    }
+
+    .header-button-vid {
+        padding: 5px 30px 5px 30px;
+    }
+
+    .header-button-vid {
+        width: 170px;
+    }
+
+    .header-button-vid-icon {
+        height: 20px;
+        width: 20px;
+    }
+
+    .div-about-plants {
+        margin-top: 100px;
+    }
+
+    .h2-about-plants {
+        width: 50%;
+        height: 30%;
+        font-size: 30px;
+        padding-left: 15px;
+    }
+
+    .p-about-plants {
+        width: 60%;
+        height: 30%;
+        margin-left: 60px;
+        font-size: 17px;
+    }
+
+    .types-of-plants {
+        gap: 30px;
+        width: 100%;
+        height: 40%;
+        margin-top: 90px;
+        margin-bottom: 100px;
+    }
+
+    .indoor-plants {
+        width: 30%;
+        padding: 0px 40px 0px 40px;
+    }
+
+    .outdoor-plants {
+        width: 30%;
+        padding: 0px 40px 50px 40px;
+    }
+
+    .img-types-of-plant {
+        margin-bottom: 10px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .h2-plants {
+        font-size: 18px;
+    }
+
+    .p-plants {
+        font-size: 14px;
+        margin-top: 5%;
+        width: 90%;
+        height: 72px;
+    }
+
+    .h2-outdoor-plants {
+        font-size: 18px;
+    }
+
+
+    .p-outdoor-plants {
+        font-size: 14px;
+        margin-top: 5%;
+    }
+
+    .cactus-plant {
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+    }
+
+    .div-all-cactus-plants {
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+        padding: 0px 15px 0px 15px;
+    }
+
+
+    .a-button-cactus-plant {
+        font-size: 12px;
+        font-weight: 900;
+        margin-left: 50%;
+        display: inline;
+        padding: 10% 40% 10% 40%;
+    }
+
+    
+    .column2 {
+        display: flex;
+    }
+
+    .footer {
+        margin-top: 100px;
+        padding-top: 60px;
+        position: relative;
+    }
+
+    .div-footer {
+        height: 70%;
+    }
+
+    .div-footer-contacts {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .footer-icon {
+        height: 50px;
+        width: 50px;
+        margin: 36px;
+    }
+    
+    .copyright {
+        height: 35px;
+        font-size: 14px;
+        font-weight: 700;
+    
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .a-nav-list-item {
+        font-size: 16px;
+    }
+
+    .separated-a-nav-list-item {
+        height: 35px;
+        width: 140px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .nav-contact {
+        font-size: 16px;
+    }
+
+    .contact-popup-content h2 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .info {
+        font-size: 14px;
+    }
+
+    .h1 {
+        font-size: 35px;
+        margin-top: 100px;
+    }
+
+    .header-text {
+        font-size: 16px;
+    }
+
+    .a-header-button-book {
+        padding: 5px 44px 5px 44px;
+        font-weight: 600;
+
+    }
+
+    .p-header-button-book {
+        font-size: 14px;
+
+    }
+
+    .a-button-video {
+        font-size: 14px;
+    }
+
+    .header-button-vid {
+        padding: 5px 30px 5px 30px;
+    }
+
+    .header-button-vid {
+        width: 170px;
+    }
+
+    .header-button-vid-icon {
+        height: 20px;
+        width: 20px;
+    }
+
+    .div-about-plants {
+        margin-top: 100px;
+    }
+
+    .h2-about-plants {
+        width: 50%;
+        height: 30%;
+        font-size: 30px;
+        padding-left: 15px;
+    }
+
+    .p-about-plants {
+        width: 60%;
+        height: 30%;
+        margin-left: 60px;
+        font-size: 17px;
+    }
+
+    .types-of-plants {
+        gap: 30px;
+        width: 100%;
+        height: 40%;
+        margin-top: 90px;
+        margin-bottom: 100px;
+    }
+
+    .indoor-plants {
+        width: 30%;
+        padding: 0px 40px 0px 40px;
+    }
+
+    .outdoor-plants {
+        width: 30%;
+        padding: 0px 40px 50px 40px;
+    }
+
+    .img-types-of-plant {
+        margin-bottom: 10px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .h2-plants {
+        font-size: 18px;
+    }
+
+    .p-plants {
+        font-size: 14px;
+        margin-top: 5%;
+        width: 90%;
+        height: 72px;
+    }
+
+    .h2-outdoor-plants {
+        font-size: 18px;
+    }
+
+
+    .p-outdoor-plants {
+        font-size: 14px;
+        margin-top: 5%;
+    }
+
+    .cactus-plant {
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+    }
+
+    .div-all-cactus-plants {
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+        padding: 0px 15px 0px 15px;
+    }
+
+
+    .a-button-cactus-plant {
+        font-size: 12px;
+        font-weight: 900;
+        margin-left: 50%;
+        display: inline;
+        padding: 10% 40% 10% 40%;
+    }
+
+    
+    .column2 {
+        display: flex;
+    }
+
+    .footer {
+        margin-top: 100px;
+        padding-top: 60px;
+        position: relative;
+    }
+
+    .div-footer {
+        height: 70%;
+    }
+
+    .div-footer-contacts {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .footer-icon {
+        height: 50px;
+        width: 50px;
+        margin: 36px;
+    }
+    
+    .copyright {
+        height: 35px;
+        font-size: 14px;
+        font-weight: 700;
+    
+    }
+}
+
