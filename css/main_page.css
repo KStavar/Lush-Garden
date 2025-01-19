@@ -105,7 +105,7 @@ nav {
 
 .popup-content {
     background-image: url(/img/arto-suraj-X7jtnqyn54M-unsplash\ 1.png);
-    width: 100%;
+    width: 1980px;
     height: 400px;
     position: relative;
     background-repeat: round;
@@ -592,6 +592,10 @@ a {
         font-size: 14px;
     }
 
+    .popup-content {
+        flex-direction: column;
+    }
+
     .h1 {
         font-size: 35px;
         margin-top: 100px;
@@ -806,6 +810,31 @@ a {
         text-align: center;
     }
 
+    .contact-content {
+        flex-direction: column;
+
+    }
+
+    .contact-popup-content {
+
+        width: 60%;
+        height: 40%;
+    }
+
+    .info {
+        width: 80%;
+        font-size: 13px;
+        white-space: wrap;
+        text-align: center;
+    }
+
+    .contact-popup-content h2 {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 7px;
+    }
+
     .h1 {
         font-size: 27px;
         margin-top: 100px;
@@ -935,6 +964,7 @@ a {
 
     .nav-list {
         gap: 10px;
+        white-space: nowrap;
     }
 
     .separated-a-nav-list-item {
@@ -946,6 +976,18 @@ a {
         font-size: 30px;
         font-weight: 700;
         text-align: center;
+    }
+
+    .email-button {
+        width: 100%;
+    }
+
+    .popup-content {
+        white-space: nowrap;
+    }
+
+    #input-email {
+        width: 65%;
     }
 
     .h1 {
@@ -1025,8 +1067,6 @@ a {
         text-align: center;
     }
 
-
-
     .footer {
         margin-top: 250px;
         padding-top: 60px;
@@ -1034,14 +1074,112 @@ a {
         z-index: 0;
     }
 
-    .ul-footer{
+    .ul-footer {
         display: grid;
         grid-template-columns: auto auto auto;
-        gap:15%;
+        gap: 15%;
     }
 
-    .div-footer-li{
+    .div-footer-li {
         padding: 2px 0px 2px 0px;
     }
 
+}
+
+@media (max-width: 500px) {
+
+    .nav-list {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-right: 5%;
+        white-space: nowrap;
+    }
+
+    .logo {
+        height: 50px;
+        width: 89px;
+        padding: 2px;
+    }
+
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .email-button {
+        flex-direction: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .popup-content h2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .contact-popup-content {
+        width: 50%;
+        height: 30%;
+    }
+
+    .a-header-button-submit{
+        padding: 12px 30px 12px 30px;
+    }
+
+    .info {
+        width: 80%;
+        font-size: 12px;
+        white-space: wrap;
+        text-align: start;
+        font-weight: 500;
+    }
+
+    .contact-popup-content h2 {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+
+    .h2-about-plants {
+        width: 100%;
+        height: 30%;
+        font-size: 30px;
+        padding-right: 10px;
+    }
+
+    .p-plants {
+        font-size: 14px;
+        font-weight: 500;
+        height: 80%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .p-outdoor-plants {
+        font-size: 14px;
+        font-weight: 500;
+        width: 100%;
+        height: 80%;
+    }
+
+    .copyright {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width:350px) {
+
+    .popup-content h2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .a-nav-list-item{
+        font-size: 12px;
+    }
+
+    .a-header-button-submit{
+        padding: 12px 20px 12px 20px;
+    }
 }
