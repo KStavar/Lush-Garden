@@ -827,28 +827,28 @@ a {
         width: 100%;
         height: 100%;
         flex-direction: column;
-       align-items:center;
+        align-items: center;
     }
 
     .indoor-plants {
         width: 80%;
         height: 200px;
         padding: 0px 40px 0px 40px;
-        justify-content:center;
-        align-items:center;
+        justify-content: center;
+        align-items: center;
         display: flex;
-        gap:5%;
+        gap: 5%;
     }
 
     .p-plants {
         font-size: 16px;
     }
 
-    .p-outdoor-plants{
+    .p-outdoor-plants {
         font-size: 16px;
     }
 
-    .img-info-plants{
+    .img-info-plants {
         text-align: center;
     }
 
@@ -857,19 +857,19 @@ a {
         height: 200px;
         padding: 0px 40px 0px 40px;
         justify-content: center;
-        align-items:center;
+        align-items: center;
         display: flex;
-        gap:5%;
+        gap: 5%;
     }
 
-    .plants-pots{
+    .plants-pots {
         width: 80%;
         height: 200px;
         padding: 0px 40px 0px 40px;
         justify-content: center;
-        align-items:center;
+        align-items: center;
         display: flex;
-        gap:5%;
+        gap: 5%;
     }
 
     .img-types-of-plant {
@@ -905,16 +905,17 @@ a {
         justify-content: space-between;
     }
 
-   .p-cactus-plant{
-    font-size: 16px;
-   }
+    .p-cactus-plant {
+        font-size: 16px;
+    }
+
     .a-button-cactus-plant {
         font-size: 90%;
         font-weight: 900;
         white-space: nowrap;
-        margin:10px
+        margin: 10px
     }
-    
+
     .column2 {
         display: flex;
         width: 100%;
@@ -926,6 +927,121 @@ a {
         padding-top: 60px;
         position: relative;
         z-index: 0;
+    }
+
+}
+
+@media (max-width: 680px) {
+
+    .nav-list {
+        gap: 10px;
+    }
+
+    .separated-a-nav-list-item {
+        width: 100px;
+        margin-left: 10px;
+    }
+
+    .contact-popup-content h2 {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .h1 {
+        font-size: 30px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .header-text {
+        font-size: 16px;
+        width: 80%;
+        font-weight: 500;
+    }
+
+    .div-about-plants {
+        margin-top: 60px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .h2-about-plants {
+        width: 100%;
+        height: 30%;
+        font-size: 30px;
+        padding-left: 15px;
+    }
+
+    .p-about-plants {
+        width: 90%;
+        text-align: center;
+        margin: 5% 2% 0% 2%;
+    }
+
+    .types-of-plants {
+        width: 100%;
+        height: 120%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .indoor-plants {
+        width: 80%;
+        height: 200px;
+        padding: 0px 40px 0px 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 5%;
+        text-align: center;
+    }
+
+    .p-plants {
+        font-size: 16px;
+        font-weight: 500;
+        height: 80%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .p-outdoor-plants {
+        font-size: 16px;
+        font-weight: 500;
+        width: 100%;
+        height: 80%;
+    }
+
+    .img-info-plants {
+        text-align: center;
+    }
+
+    .outdoor-plants {
+        text-align: center;
+    }
+
+    .plants-pots {
+        text-align: center;
+    }
+
+
+
+    .footer {
+        margin-top: 250px;
+        padding-top: 60px;
+        position: relative;
+        z-index: 0;
+    }
+
+    .ul-footer{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap:15%;
+    }
+
+    .div-footer-li{
+        padding: 2px 0px 2px 0px;
     }
 
 }
