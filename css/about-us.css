@@ -741,11 +741,22 @@ a {
         margin-left: 10px;
     }
 
+   
+    .contact-popup-content {
+        width: 80%;
+        height: 60%;
+    }
+
     .contact-popup-content h2 {
-        font-size: 30px;
+        font-size: 50px;
         font-weight: 700;
         text-align: center;
     }
+
+    .info{
+        font-size: 20px;
+    }
+
 
     .email-button {
         width: 100%;
@@ -869,4 +880,21 @@ a {
     .a-header-button-submit{
         padding: 12px 20px 12px 20px;
     }
+
+  
+    .contact-popup-content {
+        width: 80%;
+        height: 60%;
+    }
+
+    .contact-popup-content h2 {
+        font-size: 35px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .info{
+        font-size: 16px;
+    }
+
 }

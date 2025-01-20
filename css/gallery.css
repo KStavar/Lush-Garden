@@ -633,8 +633,8 @@ a {
 
     .contact-content {
         flex-direction: column;
-       height: auto;
-       width: auto;
+        height: auto;
+        width: auto;
     }
 
     .img-about-products {
@@ -681,10 +681,19 @@ a {
         margin-left: 10px;
     }
 
+    .contact-popup-content {
+        width: 80%;
+        height: 60%;
+    }
+
     .contact-popup-content h2 {
-        font-size: 30px;
+        font-size: 50px;
         font-weight: 700;
         text-align: center;
+    }
+
+    .info{
+        font-size: 20px;
     }
 
     .email-button {
@@ -781,27 +790,12 @@ a {
         font-weight: 600;
     }
 
-    .contact-popup-content {
-        width: 50%;
-        height: 30%;
-    }
-
     .a-header-button-submit {
         padding: 12px 30px 12px 30px;
     }
 
-    .info {
-        width: 80%;
-        font-size: 12px;
-        white-space: wrap;
-        text-align: start;
-        font-weight: 500;
-    }
-
-    .contact-popup-content h2 {
+    .info{
         font-size: 20px;
-        font-weight: 700;
-        text-align: center;
     }
 
 
@@ -836,7 +830,7 @@ a {
 }
 
 
-@media (max-width:350px) {
+@media (max-width:380px) {
 
     .popup-content h2 {
         font-size: 20px;
@@ -854,4 +848,20 @@ a {
     .a-header-button-submit {
         padding: 12px 20px 12px 20px;
     }
+    
+    .contact-popup-content {
+        width: 80%;
+        height: 60%;
+    }
+
+    .contact-popup-content h2 {
+        font-size: 35px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .info{
+        font-size: 16px;
+    }
+
 }
