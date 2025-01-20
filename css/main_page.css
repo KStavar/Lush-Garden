@@ -1115,13 +1115,15 @@ a {
         font-size: 25px;
         font-weight: 600;
     }
-
+    .nav-contact{
+        font-size: 16px;
+    }
     .contact-popup-content {
         width: 50%;
         height: 30%;
     }
 
-    .a-header-button-submit{
+    .a-header-button-submit {
         padding: 12px 30px 12px 30px;
     }
 
@@ -1173,6 +1175,10 @@ a {
     .popup-content h2 {
         font-size: 20px;
         font-weight: 600;
+    }
+
+    .nav-contact{
+        font-size: 12px;
     }
 
     .a-nav-list-item{

@@ -812,7 +812,7 @@ a {
         width: 50%;
         height: 30%;
     }
-
+  
     .a-header-button-submit {
         padding: 12px 30px 12px 30px;
     }
@@ -833,5 +833,26 @@ a {
 
     .copyright{
         font-size: 10px;;
+    }
+}
+
+
+@media (max-width:350px) {
+
+    .popup-content h2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .nav-contact{
+        font-size: 12px;
+    }
+
+    .a-nav-list-item{
+        font-size: 12px;
+    }
+
+    .a-header-button-submit{
+        padding: 12px 20px 12px 20px;
     }
 }
