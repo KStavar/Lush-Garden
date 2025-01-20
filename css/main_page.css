@@ -804,35 +804,25 @@ a {
         font-weight: 600;
     }
 
-    .contact-popup-content h2 {
-        font-size: 30px;
-        font-weight: 700;
-        text-align: center;
-    }
-
     .contact-content {
         flex-direction: column;
-
+        height: auto;
+        width: auto;
     }
-
     .contact-popup-content {
-
-        width: 60%;
-        height: 40%;
-    }
-
-    .info {
         width: 80%;
-        font-size: 13px;
-        white-space: wrap;
-        text-align: center;
+        height: 60%;
     }
 
     .contact-popup-content h2 {
-        font-size: 30px;
+        font-size: 50px;
         font-weight: 700;
         text-align: center;
-        padding-bottom: 7px;
+    }
+
+    .info{
+        font-size: 18px;
+        width: 100%;
     }
 
     .h1 {
@@ -972,7 +962,7 @@ a {
         margin-left: 10px;
     }
 
-   
+
     .contact-popup-content {
         width: 80%;
         height: 60%;
@@ -984,7 +974,7 @@ a {
         text-align: center;
     }
 
-    .info{
+    .info {
         font-size: 20px;
     }
 
@@ -1111,10 +1101,22 @@ a {
         width: 89px;
         padding: 2px;
     }
-
-    .contact-content {
-        flex-direction: column;
+ .contact-popup-content {
+        width: 80%;
+        height: 60%;
     }
+
+    .contact-popup-content h2 {
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .info{
+        font-size: 18px;
+        width: 100%;
+    }
+
 
     .email-button {
         flex-direction: flex;
@@ -1126,18 +1128,17 @@ a {
         font-size: 25px;
         font-weight: 600;
     }
-    .nav-contact{
+
+    .nav-contact {
         font-size: 16px;
     }
-    
+
 
     .a-header-button-submit {
         padding: 12px 30px 12px 30px;
     }
 
-    .contact-popup-content h2 {
-        font-size: 35px;
-    }
+
 
     .h2-about-plants {
         width: 100%;
@@ -1161,32 +1162,44 @@ a {
         height: 80%;
     }
 
+    .div-all-cactus-plants {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
     .copyright {
         font-size: 10px;
+    }
+
+    .footer {
+        margin-top: 10%;
     }
 }
 
 
-@media (max-width:350px) {
+@media (max-width:380px) {
 
     .popup-content h2 {
         font-size: 20px;
         font-weight: 600;
     }
 
-    .nav-contact{
+    .nav-contact {
         font-size: 12px;
     }
 
-    .a-nav-list-item{
+    .a-nav-list-item {
         font-size: 12px;
     }
 
-    .a-header-button-submit{
+    .a-header-button-submit {
         padding: 12px 20px 12px 20px;
     }
 
-    
+
+
+
     .contact-popup-content {
         width: 80%;
         height: 60%;
@@ -1198,8 +1211,12 @@ a {
         text-align: center;
     }
 
-    .info{
+    .info {
         font-size: 16px;
+    }
+
+    .footer {
+        margin-top: 10%;
     }
 
 }

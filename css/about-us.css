@@ -661,23 +661,20 @@ a {
     }
 
     .contact-popup-content {
-        width: 60%;
-        height: 40%;
-    }
-
-    .info {
         width: 80%;
-        font-size: 13px;
-        white-space: wrap;
-        text-align: center;
+        height: 60%;
     }
 
     .contact-popup-content h2 {
-        font-size: 30px;
+        font-size: 50px;
         font-weight: 700;
         text-align: center;
-        padding-bottom: 7px;
     }
+
+    .info{
+        font-size: 20px;
+    }
+
 
     .products-svg{
         width: 50%;
@@ -804,55 +801,60 @@ a {
         padding: 2px;
     }
 
-    .contact-content {
-        flex-direction: column;
+    .contact-popup-content {
+        width: 80%;
+        height: 60%;
     }
+
+    .contact-popup-content h2 {
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .info{
+        font-size: 18px;
+        width: 100%;
+    }
+
 
     .email-button {
         flex-direction: flex;
         flex-direction: column;
         width: 100%;
     }
-
-    .popup-content h2 {
-        font-size: 25px;
-        font-weight: 600;
-    }
-
-    .contact-popup-content {
-        width: 50%;
-        height: 30%;
-    }
   
     .a-header-button-submit {
         padding: 12px 30px 12px 30px;
     }
 
-    .info {
-        width: 80%;
-        font-size: 12px;
-        white-space: wrap;
-        text-align: start;
-        font-weight: 500;
+    .about-products{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        
     }
 
-    .contact-popup-content h2 {
-        font-size: 20px;
-        font-weight: 700;
-        text-align: center;
+    .div-products{
+        justify-content: start;
+        margin: 0;
+        height: 25%;
+        align-items:center;
+        justify-content: space-around;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
     }
 
     .products-svg{
-        width: 40%;
+        width: 80%;
         height: 30%;
     }
 
     .h3-products {
-        font-size: 13px;
+        font-size: 30px;
     }
 
     .p-products {
-        font-size: 10px;
+        font-size: 20px;
         width: 80%;
     }
 
@@ -862,7 +864,7 @@ a {
 }
 
 
-@media (max-width:350px) {
+@media (max-width:380px) {
 
     .popup-content h2 {
         font-size: 20px;
