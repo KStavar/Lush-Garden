@@ -11,17 +11,22 @@
 
 }
 
+
 .header {
-    padding: 0 110px 0 110px;
+    background-image: linear-gradient(#869991, #8da299);
     justify-content: space-between;
     align-items: center;
     height: 105px;
     display: flex;
-    background-image: linear-gradient(#869991, #8da299);
 }
 
 nav {
     display: flex;
+    margin-right: 5%;
+}
+
+.logo {
+    margin-left: 5%;
 }
 
 .nav-list {
@@ -296,8 +301,7 @@ a {
 }
 
 .l-image {
-    width: auto;
-    height: auto;
+    width: 30%;
     cursor: pointer;
     border-radius: 7px;
 }
@@ -305,7 +309,7 @@ a {
 .image {
     cursor: pointer;
     width: 100%;
-    height: 100%;
+    height: auto;
     border-radius: 7px
 }
 
@@ -445,4 +449,306 @@ a {
     position: absolute;
     bottom: 0;
 
+}
+
+
+@media (max-width: 1400px) {
+    .a-nav-list-item {
+        font-size: 16px;
+    }
+
+    .separated-a-nav-list-item {
+        height: 35px;
+        width: 140px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .nav-contact {
+        font-size: 16px;
+    }
+
+    .contact-popup-content h2 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .info {
+        font-size: 14px;
+    }
+
+    .popup-content {
+        flex-direction: column;
+    }
+
+
+    .div-h2-about {
+        height: 100%;
+        min-height: 80px;
+    }
+
+    .div-h2-empty {
+        height: 100%;
+        min-height: 80px;
+    }
+
+    .h2-gallery {
+        font-size: 40px;
+    }
+
+    .h2-our-gallery {
+        font-size: 30px;
+    }
+
+    .div-images {
+        width: 90%;
+
+    }
+
+    .footer {
+        margin-top: 10%;
+        padding-top: 60px;
+        position: relative;
+    }
+
+    .div-footer {
+        height: 70%;
+    }
+
+    .div-footer-contacts {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .footer-icon {
+        height: 50px;
+        width: 50px;
+        margin: 36px;
+    }
+
+    .copyright {
+        height: 35px;
+        font-size: 14px;
+        font-weight: 700;
+
+    }
+}
+
+@media (max-width:1150px) {
+    .blog {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .div-cards {
+        width: 80%;
+        flex-direction: row;
+        align-items:center;
+        justify-content: space-around;
+    }
+
+    .div-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height:300px;
+        justify-content: space-between;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .h3-card-header{
+        font-size: 27px;
+    }
+
+    .p-info{
+        font-size: 20px;
+    }
+
+}
+
+
+@media (max-width: 880px) {
+
+    .nav-list {
+        gap: 30px;
+    }
+
+    .separated-a-nav-list-item {
+        height: 35px;
+        width: 130px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .contact-popup-content h2 {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .img-about-products {
+        display: none;
+    }
+
+    .contact-popup-content {
+        width: 60%;
+        height: 40%;
+    }
+
+    .info {
+        width: 80%;
+        font-size: 13px;
+        white-space: wrap;
+        text-align: center;
+    }
+
+    .contact-popup-content h2 {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 7px;
+    }
+
+    .footer {
+        margin-top: 10%;
+        padding-top: 60px;
+        position: relative;
+        z-index: 0;
+    }
+
+}
+
+@media (max-width: 680px) {
+
+    .nav-list {
+        gap: 10px;
+        white-space: nowrap;
+    }
+
+    .separated-a-nav-list-item {
+        width: 100px;
+        margin-left: 10px;
+    }
+
+    .contact-popup-content h2 {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .email-button {
+        width: 100%;
+    }
+
+    .popup-content {
+        white-space: nowrap;
+    }
+
+    #input-email {
+        width: 65%;
+    }
+
+    .footer {
+        margin-top: 10%;
+        padding-top: 60px;
+        position: relative;
+        z-index: 0;
+    }
+
+    .ul-footer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 15%;
+    }
+
+    .div-footer-li {
+        padding: 2px 0px 2px 0px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .nav-list {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-right: 5%;
+        white-space: nowrap;
+    }
+
+    .logo {
+        height: 50px;
+        width: 89px;
+        padding: 2px;
+    }
+
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .email-button {
+        flex-direction: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .popup-content h2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .contact-popup-content {
+        width: 50%;
+        height: 30%;
+    }
+
+    .a-header-button-submit {
+        padding: 12px 30px 12px 30px;
+    }
+
+    .info {
+        width: 80%;
+        font-size: 12px;
+        white-space: wrap;
+        text-align: start;
+        font-weight: 500;
+    }
+
+    .contact-popup-content h2 {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .copyright {
+        font-size: 10px;
+        ;
+    }
+}
+
+
+@media (max-width:350px) {
+
+    .popup-content h2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .nav-contact {
+        font-size: 12px;
+    }
+
+    .a-nav-list-item {
+        font-size: 12px;
+    }
+
+    .a-header-button-submit {
+        padding: 12px 20px 12px 20px;
+    }
 }

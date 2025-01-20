@@ -680,16 +680,16 @@ a {
     }
 
     .products-svg{
-        width: 40%;
-        height: 30%;
+        width: 50%;
+        height: 40%;
     }
 
     .h3-products {
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .p-products {
-        font-size: 10px;
+        font-size: 14px;
         width: 80%;
     }
 
@@ -829,6 +829,20 @@ a {
         font-size: 20px;
         font-weight: 700;
         text-align: center;
+    }
+
+    .products-svg{
+        width: 40%;
+        height: 30%;
+    }
+
+    .h3-products {
+        font-size: 13px;
+    }
+
+    .p-products {
+        font-size: 10px;
+        width: 80%;
     }
 
     .copyright{
